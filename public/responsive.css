@@ -1,0 +1,134 @@
+@media (max-width:1030px) {}
+
+.margin-top-up {
+    margin-top: -25rem;
+}
+
+@media (max-width:991px) {
+
+    /*commom css*/
+    h1,
+    h2 {
+        font-size: 2.5rem
+    }
+
+    .ipadx_px_30 {
+        padding: 0 1.89rem;
+    }
+
+    /*header*/
+    .navbar {
+        padding-top: 0.625rem;
+        padding-bottom: 0.75rem;
+        color: black;
+    }
+
+    .navbar-brand {
+        width: 50%;
+    }
+
+    .navbar-brand img {
+        max-width: 60%;
+    }
+
+    .navbar-toggler {
+        padding-right: 0;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-toggler-icon {
+        color: white;
+        width: 1em;
+        height: 1em;
+
+    }
+
+    .navbar-sticky-on .navbar-toggler-icon {
+        color: black;
+    }
+
+    .navbar .navbar-nav {
+        background: white;
+        border-radius: 0.122rem;
+        text-align: center;
+    }
+
+    .navbar .navbar-nav .nav-link {
+        padding: 0.625rem 1.5rem;
+        color: black;
+    }
+
+    /*home*/
+    #Home {
+        padding-top: 7rem;
+    }
+
+    #Home .row {
+        flex-direction: column-reverse;
+    }
+
+    #Home .home-text {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    #Home .home-download-btn {
+        justify-content: center;
+    }
+
+    .home-image {
+        text-align: center;
+    }
+
+    .home-image img {
+        max-width: 60%;
+    }
+    .single-price{
+        margin-bottom: 2.5rem;
+    }
+}
+
+@media (max-width:767px) {
+    #Home {
+        padding-top: 5rem;
+    }
+
+    #Home .home_text h2 {
+        font-size: 2.5rem;
+        line-height: 4rem;
+    }
+
+    #Home .home-download-btn .btn {
+        margin: 0;
+    }
+
+    .home-image {
+        text-align: center;
+        transform: rotate(0deg);
+    }
+
+    .single-counter-:nth-child(2)::after {
+        display: none;
+    }
+
+    .mobile-top-up {
+        margin-top: 0rem;
+    }
+
+    .features-middle {
+        text-align: center;
+    }
+
+    .features-img {
+        text-align: center;
+        padding-top: 1.5rem;
+    }
+
+    .features-img img {
+        max-width: 95%;
+    }
+
+}
