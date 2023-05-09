@@ -19,7 +19,7 @@ db.once('open',()=>console.log("Connected to Database"))
 app.post("/contactform",(req,res)=>{
     var name = req.body.name;
     var email = req.body.email;
-    var msgcontent = req.msgcontent;
+    var msgcontent = req.body.msgcontent;
     
     var data = {
         "name" : name,
