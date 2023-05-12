@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({
     extended:true
 }))
 // mongodb://127.0.0.1:27017/foodie-db mongosh show dbs 
-mongoose.connect('mongodb+srv://oneshot-db:onesht@db123@oneshot-db.xjmku3w.mongodb.net/?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://oneshot-db:@oneshot-db.xjmku3w.mongodb.net/?retryWrites=true&w=majority',{
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
